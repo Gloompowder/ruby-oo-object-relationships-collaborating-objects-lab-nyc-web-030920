@@ -15,7 +15,6 @@ class Song
   end
   
   def new_by_filename(file_name)
-    file_name
-    binding.pry
+return file_name
   end
 end

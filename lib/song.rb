@@ -1,3 +1,4 @@
+require 'pry'
 class Song 
   attr_accessor :name, :artist
   
@@ -13,7 +14,8 @@ class Song
     @@all
   end
   
-  def new_by_filename(file_name_artist)
-    song=Song.new(self, file_name_artist)
+  def new_by_filename(file_name)
+    file_name
+    binding.pry
   end
 end
